@@ -1,0 +1,22 @@
+<%-include("partials/header.ejs")%>
+
+<div class="lists-top">
+<h3>Username:<%=emailid%></h3>
+</div>
+
+<form class="create-list-form" action="/listhome" method="post">
+<input type="text" name="newlist" value="" placeholder="Create new List">
+<button type="submit" name="button" value="<%=emailid%>" >+</button>
+</form>
+<div class="alllists">
+  <% lists.forEach(function(list){ %>
+    <div class="list">
+      <h3><%= list.name %></h3>
+      <a href="">View List</a>
+    </div>
+
+  <% }) %>
+
+</div>
+
+<%-include("partials/footer.ejs")%>
