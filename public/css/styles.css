@@ -94,6 +94,7 @@ background-color: #43d8c9;
 margin-bottom: 50px;
   height: auto;
  float: left;
+ display: inline-block;
 }
 .contact-form input
 {
@@ -118,7 +119,7 @@ margin-bottom: 50px;
  text-align: center;
  margin-bottom: 50px;
   float: left;
-
+display: inline-block;
 }
 
 .register-page body
@@ -190,15 +191,16 @@ margin-bottom: 50px;
 
 .header h3
 {
-  display:inline-block;
+  display:block;
 }
 
-.header a
+.logout-a
 {
   text-align: right;
   margin-right: 20px;
   float: right;
-  display: inline-block;
+  display: block;
+
 }
 
 .display-expenditure
