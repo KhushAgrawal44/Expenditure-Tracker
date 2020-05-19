@@ -185,21 +185,25 @@ display: inline-block;
 .header
 {
   background-color: #400082;
-  height: 50px;
+  padding: 20px;
+  height: auto;
   color:  #edffea;
 }
 
 .header h3
 {
-  display:block;
+  width:60%;
+   word-wrap: break-word;
+  display:inline-block;
+
 }
 
-.logout-a
+.header a
 {
   text-align: right;
   margin-right: 20px;
   float: right;
-  display: block;
+  display: inline-inline-block;
 
 }
 
