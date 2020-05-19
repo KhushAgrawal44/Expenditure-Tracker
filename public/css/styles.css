@@ -185,7 +185,7 @@ display: inline-block;
 .header
 {
   background-color: #400082;
-  padding: 20px;
+  padding: 5px;
   height: auto;
   color:  #edffea;
 }
@@ -201,8 +201,9 @@ display: inline-block;
 .header a
 {
   text-align: right;
-  margin-right: 20px;
+  
   float: right;
+  width: 20%
   display: inline-inline-block;
 
 }
