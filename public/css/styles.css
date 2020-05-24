@@ -1,7 +1,6 @@
 html,body
 {
-background-color:  #43d8c9;
-
+  background-color:  #43d8c9;
 }
 
 
@@ -69,6 +68,7 @@ background-color: #43d8c9;
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: #ff6363;
+  width: 100%;
   text-align: center;
 }
 
@@ -82,6 +82,7 @@ background-color: #43d8c9;
   border-radius: 20px;
   text-align: center;
   width: 90%;
+  float: center;
   height:auto;
 
 }
@@ -98,7 +99,7 @@ margin-bottom: 50px;
 }
 .contact-form input
 {
-  width: 100%;
+
   text-align:center;
   margin-left: auto;
   margin-right: auto;
@@ -172,7 +173,7 @@ display: inline-block;
 }
 .manage
 {
-  font-family: cursive;
+  font-family: sans-serif;
   font-weight: bolder;
 
   text-align: center;
@@ -201,7 +202,7 @@ display: inline-block;
 .header a
 {
   text-align: right;
-  
+
   float: right;
   width: 20%
   display: inline-inline-block;
@@ -238,8 +239,6 @@ table
 }
 tr,th,td
 {
-
-
     border: 1px solid black;
     padding: 10px;
 }
