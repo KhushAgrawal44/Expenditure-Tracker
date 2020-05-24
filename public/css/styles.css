@@ -1,6 +1,7 @@
 html,body
 {
   background-color:  #43d8c9;
+  width: 100%;
 }
 
 
@@ -48,7 +49,7 @@ background-color: #43d8c9;
 .about-text
 {
   margin-top: 30px;
-  width:70%;
+  width:90%;
   border-radius: 10px;
   background-color: #edffea;
   display: inline-block;
@@ -94,7 +95,7 @@ background-color: #43d8c9;
   text-align: center;
 margin-bottom: 50px;
   height: auto;
- float: left;
+
  display: inline-block;
 }
 .contact-form input
@@ -119,7 +120,7 @@ margin-bottom: 50px;
 
  text-align: center;
  margin-bottom: 50px;
-  float: left;
+
 display: inline-block;
 }
 
@@ -147,30 +148,7 @@ display: inline-block;
   width:400px;
   border-radius: 10px;
 }
-.create-list-form button
-{
-  background-color: #fa744f;
-  border-radius: 50%;
-  padding: 10px;
-}
 
-.list
-{
-  text-align:center;
-  color:  #fa744f;
-  border: 5px solid;
-  border-color: #43d8c9;
-  padding:10px;;
-  background-color: #ececeb;
-  width: auto;
-  display: inline-block;
-}
-
-.alllists
-{
-  text-align: center;
-  margin-top: 50px;
-}
 .manage
 {
   font-family: sans-serif;
@@ -189,6 +167,7 @@ display: inline-block;
   padding: 5px;
   height: auto;
   color:  #edffea;
+  display: block;
 }
 
 .header h3
@@ -201,11 +180,10 @@ display: inline-block;
 
 .header a
 {
-  text-align: right;
-
+  
   float: right;
   width: 20%
-  display: inline-inline-block;
+  display: inline-block;
 
 }
 
