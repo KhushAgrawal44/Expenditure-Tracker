@@ -124,6 +124,10 @@ margin-bottom: 50px;
 display: inline-block;
 }
 
+.grp{
+  border: 5px solid black;
+}
+
 .register-page body
 {
 
